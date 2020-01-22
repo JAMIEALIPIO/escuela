@@ -1,1 +1,4 @@
-palabra: escuela java
+eureka:
+ client:
+  service-url:
+    defaultZone: http://eureka-primary:8801/eureka/, http://eureka-secondary:8802/eureka/
